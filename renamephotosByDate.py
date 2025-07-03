@@ -3,8 +3,10 @@ from PIL.ExifTags import TAGS
 import os
 from datetime import datetime
 
+# use pillow to process photos, no raw
+
 # 设置原始文件夹路径
-source_folder = r"C:\Users\wewer\OneDrive\Pictures\huifu\101CANON"
+source_folder = r"C:\Users\"
 
 # 获取拍摄日期的方法
 def get_taken_date(path):
